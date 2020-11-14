@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Cheat Sheet_Pejic</title>
+  <style>
+  dl{
+    list-style-position: outside;
+    list-style-type:decimal;
+    
+  }
+  dl.b{list-style-position: outside;
+    list-style-type:square;
+    }
+    
+  
+  dt{
+
+    font-weight: bold;
+    display:list-item
+    
+    
+     
+  }
+  div{  background-color: powderblue;
+    border: 5px  inset rgb(26, 177, 223);
+    padding:35px;
+    
+    font-size: 20px;
+    color: black;
+    
+  }
+  
+  h1 {
+    font-size: 75px;
+    text-align: center;
+    color:black;
+  }
+  
+  body{background-color:rgb(25, 0, 255);}
+  </style>
+</head>
+<body>
+<div>
+  <h1 >World Wide Web General</h1>
+  <dl>
+      <dt>What are the most essential technologies that made the World Wide Web such a success?</dt>
+      <dd>The most essential technologies that made the WWW are UDI, HTTP and HTML.</dd><br>
+      <dt>How are resources (html pages, images, etc) addressed in the web?</dt>
+      <dd>In the Web,recources are adressed with a URL(Uniform Ressource Locator).</dd><br>
+      <dt>What are the general components of a url?</dt>
+      <dd>The general components of a url are a protocol(http), a hostname and a file name.</dd><br>
+  </dl>
+</div>
+
+<p></p>
+
+<div>
+  <h1>Web Server</h1>
+  <dl>
+    <dt>What is a web server?</dt>
+    <dd>A web server is server software, or hardware dedicated to running this software, 
+      that can satisfy client requests on the World Wide Web.</dd><br>
+
+    <dt>What does a web server?</dt>
+    <dd>A web server is server software, or hardware dedicated to running 
+      this software, that can satisfy client requests on the World Wide Web.</dd><br>
+
+    <dt>How can content be stored on a web server?</dt>
+    <dd>Content can be stored with the Hypertext Transfer Protocol also called HTTP.</dd><br>
+
+    <dt>How is content in webpages described?</dt>
+    <dd>Content on webpages are described with HTML also called Hypertext Markup Language</dd><br>
+  </dl>
+</div>
+
+<p></p>
+
+<div>
+    <h1>Hello World</h1>
+    <dl>
+      <dt>What is the html head element?</dt>
+      <dd>The head element is a container for metadata (data about data) and is placed between 
+        the html tag and the body tag</dd><br>
+
+      <dt>What does < !DOCTYPE html > mean?</dt>
+      <dd>A Document Type Declaration, or DOCTYPE for short, is an instruction to the web browser about 
+        the version of markup language in which a web page is written.</dd><br>
+      
+      <dt>What are the two top most elements within the html element?</dt>
+        <dd>The two top most elements in html are body and head.</dd><br>
+
+      <dt>How to emphasize a text and how is it displayed in the browser?</dt>
+      <dd>To emphasize a text you must write < em >text < /em > and its displayed in italic.</dd><br>
+
+      <dt>How to mark up important ext and how is it displayed in the browser?</dt>
+      <dd>To mark up a text you must write < strong >text< /strong > in the script and its displayed in bold.</dd><br>
+      
+    </dl>
+</div>
+
+<p></p>
+
+<div>
+<h1>HTML</h1>
+<dl>
+  <dt>Name the components of html elements properly</dt>
+  <dd>An HTML element is defined by a start tag, some content, and an end tag</dd><br>
+
+  <dt>Identify void elements and how they are denoted</dt>
+  <dd>Void elements only have an opening tag like < br > and not an closing tag like < /p >.
+    The img element is an exception. Itsthe only elemt which has a
+    self closing tag before the greater than sign.</dd><br>
+
+  <dt>Identify attributes</dt>
+  <dd>All attributes are made up of two parts − a name and a value.The name is the property you want to set and
+    the value is what you want the value of the property to be set</dd><br>
+
+  <dt>Write down the correct DOCTYPE declaration for html 5</dt>
+  <dd>< !DOCTYPE html ></dd><br>
+
+  <dt>Write down syntactically correct statements for the following elements</dt>
+  <dd>
+    <dl class="b">
+      <dt>Article (< article >)</dt>
+      <dd>< article>independent, self-contained content< /article ></dd>
+      <dt>Body (< body >)</dt>
+      <dd>< body >all content of a HTML document< /body ></dd>
+      <dt>line break (< br/ >)</dt>
+      <dd>The line break element is an empty element. It forces linebreaks.  </dd>
+      <dt>Headings (< h1 >, ...)</dt>
+      <dd>The line break element is an empty element. It forces linebreaks.</dd>
+      <dt>Top level element (< html >)</dt>
+      <dd>< HTML > the document head and body< /HTML ></dd>
+      <dt>Image named Team.jpg (< img src="Team.jpg" >)</dt>
+      <dd>It shows the image Team.jpg.</dd>
+      <dt>Paragraph (< p >)</dt>
+      <dd>It always starts a new line and browsers automatically <br>add some white space. It starts with an start 
+        tag and<br> ends whith an end tag. It contains text. </dd>
+      <dt>Section (< section >)</dt>
+      <dd>It defines a section in an html document. It contains elements<br> like the paragraph, the heading element etc.
+        It starts with an <br>start tag and ends whith an end tag.</dd>
+      <dt>Label appearing in the title bar (< title >)</dt>
+      <dd>< title>Title< /title>. There can be only one title.</dd>
+      <dt>Link to other pages (< a >)</dt>
+      <dd>< a href="url">link text< /a ></dd>
+      <dt>Comment</dt>
+      <dd>< !-- Comment--></dd>
+    </dl>
+  </dd>
+</dl>
+</div>
+
+<p></p>
+
+<div>
+<h1>CSS</h1>
+<dl>
+  <dt>Name the components of a css rule properly</dt>
+  <dd>A css rule is build of three components. A selector, a property and a value
+    ( selector{property: value;})</dd><br>
+
+  <dt>Use combinators properly: direct child, descendant, adjacent sibling, sibling</dt>
+  <dd>
+    <dl class="b" >
+      <dt>direct child:</dt>
+      <dd>It selects all elements that are the children of a specified element.(Combinator = >)</dd>
+      <dt>descendant selector:</dt>
+      <dd>It matches all elements that are descendants of a specified element.(Combinator = space)</dd>
+      <dt>adjacent sibling:</dt>
+      <dd>It  selects all elements that are the adjacent siblings of a specified element.
+        Sibling elements must have the same parent element, and "adjacent" means "immediately following".(Combinator = +)</dd>
+      <dt>General sibling:</dt>
+      <dd>It selects all elements that are siblings of a specified element.(Combinator = ~)</dd>
+      <dt>Syntax:</dt>
+      <dd>specified element  Combinator  element</dd>
+      <dd>{code}</dd>
+    </dl>
+  </dd><br>
+
+  <dt>Specify colors by color names and in hexadecimal notation</dt>
+  <dd>
+    A hexadecimal color is specified with: #RRGGBB, where the RR (red),
+    GG (green) and BB (blue) hexadecimal integers specify
+    the components of the color. All values must be between 00 and FF.<br>
+    A color name is specified with the name of the color(red,blue,powderblue,tomato etc.).</dd><br>
+
+  <dt>Declarations for color, background color</dt>
+  <dd>ou can declare a color or background-color inside the head element with the style element
+    or inside the start tag of a element like h1-h6. The syntax inside of the tag is
+     < p style:"background-color/color:color;" >.</dd><br>
+
+  <dt>Pseudo classes for the < a > element</dt>
+  <dd>a:link = unvisited link(must be the first initialised)<br>
+    a:visited = visited link<br>
+    a:hover = mouse over link<br>
+    a:active = selected link</dd><br>
+
+  <dt>Declaration for background image</dt>
+  <dd>To declare a background image you habe to write "background-image:url("imageName.type");</dd><br>
+
+  <dt>Declaration for text alignment (left, right, center, justify)</dt>
+  <dd>You can declare a text alignment inside of the style tag or you can declare it inside of an start tag with the style attribute.
+    When you want to declare it inside of the style tag, you can declare it in a class or inside of elements with the Syntax: "text-align: value".
+    When you want to declare it inside of an start tag you can declare it with the attribute
+    style="text-align:value".</dd><br>
+  
+  <dt>Declaration for text decoration (overline, underline, line-through)</dt>
+  <dd >You can declare a text decoration inside of the style tag or you can declare it inside of an start tag with the style attribute.
+    When you want to declare it inside of the style tag, you can declare it in a class or inside of elements with the Syntax: "text-decoration: value".
+    When you want to declare it inside of an start tag you can declare it with the attribute
+    style="text-decoration:value".</dd><br>
+
+  <dt style>Declaration for text transformation (uppercase, lowercase, capitalize)</dt>
+  <dd>You can declare a text transformation inside of the style tag or you can declare it inside of an start tag with the style attribute.
+    When you want to declare it inside of the style tag, you can declare it in a class or inside of elements with the Syntax: "text-transformation: value".
+    When you want to declare it inside of an start tag you can declare it with the attribute
+    style= "text-transform:value".</dd><br>
+  
+  <dt>Identify the difference between serif and sans-serif fonts</dt>
+  <dd>Text of the font "Serif" have small lines at the end on some characters and "sans-serif"don´t.</dd><br>
+
+  <dt>Declarations for font families</dt>
+  <dd>You can declare font-families inside of the style tag or you can declare it inside of an start tag with the style attribute.
+    When you want to declare it inside of the style tag, you can declare it in a class or inside of elements with the Syntax: "font-family: Impact, Charcoal, sans-serif;".
+    When you want to declare it inside of an start tag you can declare it with the attribute
+    style= " Impact, Charcoal, sans-serif;"<br></dd><br>
+  
+  <dt>Declarations for font style normal and italic</dt>
+  <dd>To make the font style italic:<br>Style tag: "font-style:italic;"
+    style attribute: "style="font-style:italic"".<br>
+    The syntax to make it normal is same. You have just to replace italic with normal.<br></dd><br>
+
+  <dt>Declarations for font sizes<br></dt>
+  <dd>To change the font size you can declare it like in other points described. To change the size you can use pixel or em. <br>
+    Syntax inside of the style tag: "font-size:value".
+    <br>Syntax with an attribute: style="value".</dd><br>
+  
+  <dt>Declarations for font weights</dt>
+  <dd>To change the font weight you can declare it like in other points described. You can use diffrent values like lighter, bold, normal or a number. <br>
+    Syntax inside of the style tag: "font-weight:value;".
+    <br>Syntax with an attribute: style="font-weight:value".</dd><br>
+</dl>
+
+</div>
+
+<p></p>
+
+<div>
+  <h1>HTML for Lists</h1>
+  <dl >
+    <dt>Start tags for</dt>
+
+    <dd>an ordered list: < ol></dd>
+
+    <dd>an unordered list: < ul></dd>
+
+    <dd>a description list: < dl></dd>
+
+    <dd>a list item: < li></dd>
+
+    <dd>a description term: < dt></dd>
+
+    <dd>a description data: < dd></dd>
+  </dl>
+</div>
+<p></p>
+<div >
+  <h1>CSS for Lists</h1>
+  <dl style="list-style-type:square">
+    <dt style="list-style-type:square;" >Make Bullet a square </dt>
+    <dd>Syntax="style="list-style-type:square;""</dd>
+    <dt style="list-style-type:square;">Make bullet an image named "my-bullet.png"</dt>
+    <dd>Syntax="style="list-style-image: url('images.jpg')""</dd>
+    <dt style="list-style-type:upper-roman;">Make bullet an uppercase roman number</dt>
+    <dd>Syntax=style="list-style-type:upper-roman;</dd>
+    <dt style="list-style-position: inside;">Set bullet position to be inside the list item's text flow</dt>
+    <dd>Syntax="style="list-style-position: inside;"</dd>
+    <dt style="list-style-position: outside;">Set bullet position to be outside the list item's text flow</dt>
+    <dd>Syntax="style="list-style-position: outside;"</dd>
+  </dl>
+</div>
+
+<p></p>
+<div>
+
+  <h1>HTML for tables</h1>
+  
+    <dl>
+    <dt >Start tags for:</dt>
+    <dd>a table: < table ></dd>
+    <dd>a table row: < tr></dd>
+    <dd>a table header: < thead></dd>
+    <dd>a table header cell: < th> </dd>
+    <dd>table body: < tbody></dd>
+    <dd>table cell: < td></dd>
+    <dd>table footer: < tfoot></dd>
+    <dd>table footer cell: < tr></dd>
+</div>
+
+<p></p>
+
+<div>
+  <h1>CSS for Tables</h1>
+  <dl>
+    <dt>Black dotted border of 1 px width.</dt>
+    <dd>"border: 1px dotted black;"</dd>
+    <dt>Solid border of 1 px width having a red color and rounded corners</dt>
+    <dd>"border: 1px solid red;<br>
+        border-radius: 25px;"</dd>
+    <dt>Merge the borders of table cells so that they appear as one line</dt>
+    <dd>"border-collapse: collapse;"</dd>
+  </dl>
+  
+</div>
+<p></p>
+
+</body>
+</html>
